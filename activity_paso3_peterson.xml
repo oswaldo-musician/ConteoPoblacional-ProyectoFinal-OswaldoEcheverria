@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo6"
+    android:fitsSystemWindows="true"
+    tools:context="proyectofinalmovil.com.conteopoblacional_proyectofinal_oswaldoecheverria.Paso3Peterson">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Paso3"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="#380B61"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Es muy importante marcar y terner registrada el área total del muestreo, por tal motivo ingrese cuantos metros al norte, sur, este y oeste realizara  el muestreo teniendo como punto de partida el lugar donde obtubimos las coordenas "
+                android:textSize="19dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Norte"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textSize="19dp"
+                android:background="#ffffff"
+                android:ems="10"
+                 />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Sur"
+                android:textAlignment="center"
+                android:textSize="19dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:ems="10"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Este"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="19dp"
+                android:background="#ffffff"
+                android:ems="10"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Oeste"
+                android:textAlignment="center"
+
+                android:textSize="19dp"
+                android:background="#ffffff"
+                android:ems="10"
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:text="Siguiente"
+            android:id="@+id/btn_paso3_peterson"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="#80380B61"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

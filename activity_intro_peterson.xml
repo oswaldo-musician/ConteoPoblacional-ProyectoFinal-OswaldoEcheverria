@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo6"
+    tools:context="proyectofinalmovil.com.conteopoblacional_proyectofinal_oswaldoecheverria.IntroPeterson">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Introducción"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="#8027D21E"
+                android:textColor="#80000000"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Marcar un grupo de individuos una vez, liberarlos, recapturar individuos después de un corto tiempo. La segunda muestra debe ser tomada al azar, es decir, los individuos marcados y no marcados tengan la misma probabilidad de la captura. Se usa la siguiente ecuación para la estimación del tamaño poblacional"
+                android:id="@+id/textView"
+                android:textSize="19dp"
+                android:textAlignment="center"
+
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btn_intro_peterson"
+                android:text="Siguiente"
+                android:layout_marginTop="48dp"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:background="#8001DF01"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

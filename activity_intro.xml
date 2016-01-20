@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bosque1"
+    tools:context="proyectofinalmovil.com.conteopoblacional_proyectofinal_oswaldoecheverria.Intro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="¡Bienvenid@!, esta app esta diseñada para trabajar conjuntamente con el usuario, de esta manera podemos asegurar que la aplicacion funcionará correctamente. LA APLICACION DEBE USARSE EN EL MOMENTO Y EN LUGAR DONDE SE REALIZARA EL MUESTREO"
+                android:id="@+id/textView"
+                android:textSize="23dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn_intro"
+                android:layout_height="60dp"
+                android:text="Siguiente"
+                android:layout_marginTop="37dp"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:background="#80D43C0E"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

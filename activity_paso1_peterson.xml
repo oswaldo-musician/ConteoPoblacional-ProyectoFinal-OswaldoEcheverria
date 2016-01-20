@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo6"
+    tools:context="proyectofinalmovil.com.conteopoblacional_proyectofinal_oswaldoecheverria.Paso1Peterson">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Paso1"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="#8027D21E"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Planear con anticipacion el lugar donde se realizara la estadística. A continuación ingrese los datos de locación del muestreo "
+                android:id="@+id/textView"
+                android:textSize="19dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresar país"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:textSize="19dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresar ciudad"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresar nombre del lugar"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="20dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresar direccion del lugar"
+                android:textSize="19dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Siguiente"
+            android:id="@+id/btn_paso1_peterson"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="#8027D21E"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo6"
+    android:fitsSystemWindows="true"
+    tools:context="proyectofinalmovil.com.conteopoblacional_proyectofinal_oswaldoecheverria.Paso4Peterson">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Paso4"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="#380B61"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Siguiento el metodo de Peterson dentro de nuestra área antes especificada comenzamos a capturar y marcar a los animalesl, este proceso debe ser estrictamente de 3 a 4 horas recorriendo toda el área antes planificada. Ingrese el numero de muestras capturadas, marcados y soltadas"
+                android:id="@+id/textView"
+                android:textSize="19dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Números de muestras"
+                android:layout_marginBottom="50dp"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:background="#ffffff"
+                android:ems="10"
+                />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Siguiente"
+            android:id="@+id/btn_paso4_peterson"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="#80380B61"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
